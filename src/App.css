@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, Helvetica;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    max-width: 400px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .App {
+    max-width: 600px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 901px) {
+  .App {
+    max-width: 800px;
+    padding: 20px;
+  }
+}
